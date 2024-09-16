@@ -1,0 +1,94 @@
+.wd-btn-tweet {
+    width: 100%;
+    border-radius: 25px;
+    background-color: rgb(29, 161, 242);
+    color: white;
+}
+.wd-btn-follow {
+    width: 100%;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+.wd-lightGray-bg {
+    background-color: #eeeeee;
+}
+.wd-follow-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.nav-pills {
+    width: 100%;
+}
+.wd-border-main {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+.wd-post-image {
+    border-radius: 25%;
+    width: 75px;
+    height: 75px;
+}
+.wd-bottom-left {
+    /*position: absolute;*/
+    /*bottom: 10px;*/
+    /*left: 15px;*/
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.wd-font-notbold {
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+}
+.wd-float-left {
+    float: left;
+    width: 75%;
+}
+.wd-float-right {
+    float: right;
+}
+.wd-underline {
+    text-decoration: none;
+}
+.wd-color-gray {
+    font-size: 15px;
+    color: rgb(110,118,125);
+}
+/*.wd-gray {*/
+/*    color: rgb(110,118,125);*/
+/*}*/
+.wd-nav {
+    font-size: 15px;
+    color: rgb(110,118,125);
+}
+.wd-blue {
+    color: rgb(29, 161, 242);
+}
+.wd-active {
+    border-bottom: 4px solid rgb(29, 161, 242);
+    padding-bottom: 8px;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+}
+.wd-black {
+    color: black;
+}
+.wd-gold {
+    color: goldenrod;
+}
+/*.wd-blue-bg {*/
+/*    background-color: rgb(29, 161, 242);*/
+/*}*/
+.list-group-item {
+    border: 0;
+}
+.wd-radius {
+    border-radius: 30px
+}
+.wd-font-size {
+    font-size: 20px;
+}

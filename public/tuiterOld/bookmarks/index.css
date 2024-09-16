@@ -1,0 +1,104 @@
+.wd-body {
+    font-family: "Arial";
+    background-color: black;
+}
+
+.wd-solid-border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+}
+.wd-solid-border-post {
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 25px;
+    width: 504px;
+    margin-bottom: 12px;
+}
+.wd-title {
+    padding-left: 16px;
+    padding-top: 12px;
+    color: white;
+    font-size: 20px;
+}
+.wd-handle {
+    padding-left: 16px;
+    padding-top: 10px;
+    color: lightgray;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+.wd-avatar {
+    margin-left: 16px;
+    margin-top: 12px;
+    float: left;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+}
+.wd-float-left {
+    float: left;
+}
+.wd-author-name {
+    margin-top: 12px;
+    margin-left: 12px;
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+    float: left;
+}
+.wd-author-handle {
+    margin-top: 12px;
+    color: lightgray;
+    font-size: 15px;
+    /*float: left;*/
+}
+.wd-float-done {
+    clear: both;
+}
+
+.wd-main-content {
+    color: white;
+    font-size: 15px;
+    max-width: 506px;
+    margin-top: 5px;
+    margin-left: 12px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+    clear: top;
+}
+.wd-image {
+    width: 504px;
+    height: 264px;
+    border-radius: 25px;
+}
+.wd-post-title {
+    font-weight:bold;
+    font-size: 15px;
+    color: white;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.wd-post-text {
+    font-size: 15px;
+    padding: 12px;
+    color: lightgray;
+}
+
+
+.wd-link {
+    text-decoration: none;
+    color: lightgray;
+    margin-bottom: 12px;
+}
+
+.wd-num{
+    margin-left: 12px;
+    margin-right: 100px;
+}
+
+.wd-red {
+    color: red;
+}
