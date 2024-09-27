@@ -1,0 +1,116 @@
+.wd-body {
+    margin-left: 5%;
+    font-family: "Arial";
+    background-color: black;
+}
+
+.wd-solid-border {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 16px;
+}
+.wd-solid-border-head {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+    /*padding-left: 16px;*/
+    padding-top: 10px;
+    /*padding-bottom: 10px;*/
+    margin-right: 16px;
+}
+.wd-separator {
+    border-top-width: 4px;
+    height: 1px;
+    background-color: dimgrey;
+}
+
+.wd-search-container {
+    position: relative;
+    bottom: 20px;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*padding-right: ;\*/
+    padding-left: 50px;
+    font-size: 14px;
+    border-radius: 25px;
+    background-color: darkgray;
+    color: white;
+    width: 80%;
+    outline: none;
+    margin-left: 16px;
+}
+.wd-search-icon {
+    z-index: 10;
+    position: relative;
+    top: 12px;
+    left: 30px;
+    color: white;
+    font-size: 20px;
+}
+.wd-float-done {
+    clear: both;
+}
+.wd-settings-link {
+    float: right;
+    position: relative;
+    /*top: 8px;*/
+    bottom: 10px;
+    right: 12px;
+    /*left: 12px;*/
+    font-size: 20px;
+    color: rgb(29, 161, 242);
+}
+
+.wd-link-container {
+    font-size: 15px;
+    font-family: "Arial Black";
+    /*margin-top: 20px;*/
+}
+
+.wd-highlighted-link {
+    text-decoration: none;
+    margin-left: 16px;
+    padding-bottom: 16px;
+    color: rgb(29, 161, 242);
+    border-bottom: 4px solid rgb(29, 161, 242);
+
+}
+
+.wd-link {
+    text-decoration: none;
+    padding: 16px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-post {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-topic {
+    color: white;
+}
+.wd-post-head {
+    font-size: 13px;
+    color: white;
+}
+.wd-image {
+    float: right;
+    margin-right: 16px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15%;
+}
+.wd-float {
+    float: left;
+}
+.wd-height {
+    height: 10px;
+}
+.wd-small {
+    width: 70%;
+}

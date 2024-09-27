@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Explore</title>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index_challenge.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+
+    <div class="row mt-2">
+        <div class="col-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
+            <!--            left sidebar-->
+            <div class="list-group mb-2">
+                <a href="#" class="list-group-item list-group-item-action">
+                    <i class="col-4 fa-solid fa-t fa-2x wd-blue"></i></a>
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                    <i class="col-4 fa fa-home fa-2x"></i><span class="d-none d-xl-inline">Home</span></a>
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                    <i class="col-4 fa fa-hashtag fa-2x"></i><span class="d-none d-xl-inline"><b>Explore</b></span></a>
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                    <i class="col-4 fa fa-bell fa-2x"></i><span class="d-none d-xl-inline">Notifications</span></a>
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                    <i class="col-4 fa fa-envelope fa-2x"></i><span class="d-none d-xl-inline">Messages</span></a>
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                    <i class="col-4 fa fa-bookmark fa-2x"></i><span class="d-none d-xl-inline">Bookmarks</span></a>
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                    <i class="col-4 fa fa-list fa-2x"></i><span class="d-none d-xl-inline">Lists</span></a>
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                    <i class="col-4 fa fa-user fa-2x"></i><span class="d-none d-xl-inline">Profile</span></a>
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                    <i class="col-4 fa-solid fa-ellipsis fa-2x"></i><span class="d-none d-xl-inline">More</span></a>
+            </div>
+
+            <form>
+                <button type="submit" class="btn wd-btn-tweet">Tweet</button>
+            </form>
+        </div>
+
+        <!--        main content start-->
+        <div class="col-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
+            <!--            search-bar start-->
+            <form class="pb-2 wd-border-main ps-3">
+                <div class="row">
+                    <div class="col-10 col-md-11 d-flex align-items-center">
+                        <input type="text" class="form-control rounded-pill ps-5 wd-lightGray-bg" placeholder="Search Twitter">
+                        <i class="fas fa-search position-absolute ms-3 " ></i>
+                    </div>
+                    <div class="col-2 col-md-1 d-flex align-items-center ml-auto">
+                        <a href="#">
+                            <i class="fas fa-cog wd-settings-link wd-black"></i>
+                        </a>
+                    </div>
+                </div>
+            </form>
+            <!--            search-bar end-->
+
+            <ul class="nav nav-pills d-flex justify-content-around pb-1 wd-border-main">
+                <li class="nav-item">
+                    <a class="nav-link wd-nav" href="#"><span class="wd-active">For you</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link wd-nav" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link wd-nav" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link wd-nav" href="#">Sports</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-none d-md-block wd-nav" href="#">Entertainment</a>
+                </li>
+            </ul>
+
+            <ul class="list-group wd-border-main">
+                <li class="list-group-item p-0">
+                    <img src="../../images/Starship.png" width="100%">
+                    <div class="position-absolute bottom-0 start-0 p-2 wd-bottom-left">
+                        <span class="wd-font-notbold">Rocket Launch Site · LIVE</span><br>
+                        <span>SpaceX's Starship</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="wd-float-left">
+                        <div class="wd-color-gray">Police · Trending</div>
+                        <div>
+                            <b>Seizures</b>
+                        </div>
+                        <div class="wd-color-gray">4,953 Tweets</div>
+                    </div>
+                    <div class="wd-float-right">
+                        <a href="#" class="wd-color-gray"><i class="fa-solid fa-ellipsis"></i></a>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div>
+                        <div>
+                            <b>#InfinityPool</b>
+                        </div>
+                        <div class="wd-color-gray">
+                            <b>See the electrifying thriller Infinity Pool in theaters - if you dare</b>
+                        </div>
+                        <div class="wd-color-gray"><i class="fa-solid fa-square-up-right"></i> Promoted by NEON</div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="wd-float-left">
+                        <div class="wd-color-gray">Web Development</div>
+                        <div>
+                            <b>ReactJS</b>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span class="wd-color-gray"> - 2h</span>
+                        </div>
+                        <div>
+                            <b>React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs.</b>
+                        </div>
+                    </div>
+                    <div class="wd-float-right">
+                        <img src="../../images/react.svg" class="wd-post-image">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="wd-float-left">
+                        <div>
+                            <b>JavaScript</b>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span class="wd-color-gray"> - 2h</span>
+                        </div>
+                        <div>
+                            <b>JavaScript is programming language that can run on browsers as well as desktops</b>
+                        </div>
+                        <div class="wd-color-gray">123K Tweets</div>
+                    </div>
+                    <div class="wd-float-right">
+                        <img src="../../images/logo-javascript.svg" class="wd-post-image">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="wd-float-left">
+                        <div class="wd-color-gray">Web Development</div>
+                        <div>
+                            <b>jQuery</b>
+                        </div>
+                        <div class="wd-color-gray">123K Tweets</div>
+                    </div>
+                    <div class="wd-float-right">
+                        <img src="../../images/jquery-3.svg" class="wd-post-image">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="wd-float-left">
+                        <div class="wd-color-gray">Web Development</div>
+                        <div>
+                            <b>NodeJS</b>
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span class="wd-color-gray"> - 2h</span>
+                        </div>
+                        <div class="wd-color-gray">123K Tweets</div>
+                    </div>
+                    <div class="wd-float-right">
+                        <img src="../../images/nodejs-icon.svg" class="wd-post-image">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--        main content end-->
+
+        <!--        right sidebar-->
+        <div class="col-lg-4 col-xl-4 col-xxl-4 d-none d-lg-block">
+            <ul class="list-group wd-radius">
+                <li class="list-group-item wd-lightGray-bg wd-font-size"><b>&nbsp;&nbsp;Who to follow</b></li>
+                <li class="list-group-item wd-lightGray-bg">
+                    <div class="row">
+                        <div class="col-lg-2 col-xl-2 col-xxl-2 d-flex align-items-center">
+                            <img src="../../images/Java_logo.svg" class="wd-follow-image">
+                        </div>
+                        <div class="col-lg-6 col-xl-7 col-xxl-7">
+                            <div><b>Java</b> <i class="fa-solid fa-circle-check wd-blue"></i></div>
+                            <div class="wd-color-gray">@Java</div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-xxl-3 d-flex align-items-center">
+                            <form>
+                                <button type="submit" class="btn btn-primary wd-btn-follow">Follow</button>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item wd-lightGray-bg">
+                    <div class="row">
+                        <div class="col-lg-2 col-xl-2 col-xxl-2 d-flex align-items-center">
+                            <img src="../../images/rs.png" class="wd-follow-image">
+                        </div>
+                        <div class="col-lg-6 col-xl-7 col-xxl-7">
+                            <div class="d-flex align-items-center d-inline-block"><b>Relativity&nbsp;</b><b>Space&nbsp;</b> <i class="fa-solid fa-circle-check wd-blue"></i></div>
+                            <div class="wd-color-gray">@relativityspace</div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-xxl-3 d-flex align-items-center">
+                            <form>
+                                <button type="submit" class="btn btn-primary wd-btn-follow">Follow</button>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item wd-lightGray-bg">
+                    <div class="row">
+                        <div class="col-lg-2 col-xl-2 col-xxl-2 d-flex align-items-center">
+                            <img src="../../images/galactic.png" class="wd-follow-image">
+                        </div>
+                        <div class="col-lg-6 col-xl-7 col-xxl-7">
+                            <div class="d-flex align-items-center d-inline-block"><b>Virgin&nbsp;</b><b>Galactic&nbsp;</b> <i class="fa-solid fa-circle-check wd-blue"></i></div>
+                            <div class="wd-color-gray">@virgingalactic</div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-xxl-3 d-flex align-items-center">
+                            <form>
+                                <button type="submit" class="btn btn-primary wd-btn-follow">Follow</button>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item wd-lightGray-bg">
+                    <div class="row">
+                        <div class="col-lg-2 col-xl-2 col-xxl-2 d-flex align-items-center">
+                            <img src="../../images/nasa.png" class="wd-follow-image">
+                        </div>
+                        <div class="col-lg-6 col-xl-7 col-xxl-7">
+                            <div><b>NASA</b> <i class="fa-solid fa-circle-check wd-gold"></i></div>
+                            <div class="wd-color-gray">@NASA</div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-xxl-3 d-flex align-items-center">
+                            <form>
+                                <button type="submit" class="btn btn-primary wd-btn-follow">Follow</button>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item wd-lightGray-bg">
+                    <div class="row">
+                        <div class="col-lg-2 col-xl-2 col-xxl-2 d-flex align-items-center">
+                            <img src="../../images/tesla.png" class="wd-follow-image">
+                        </div>
+                        <div class="col-lg-6 col-xl-7 col-xxl-7">
+                            <div><b>Tesla</b> <i class="fa-solid fa-circle-check wd-blue"></i></div>
+                            <div class="wd-color-gray">@Tesla</div>
+                            <div class="wd-color-gray"><i class="fa-solid fa-square-up-right"></i> Promoted</div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-xxl-3 d-flex align-items-center">
+                            <form>
+                                <button type="submit" class="btn btn-primary wd-btn-follow">Follow</button>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item wd-lightGray-bg">
+                    <div class="row">
+                        <div  class="d-flex align-items-center">
+                            <a href="#" class="wd-underline m-1 wd-blue">Show More</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="wd-color-gray m-4">
+                <div>
+                    Terms of Service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cookie Policy
+                </div>
+                <div>
+                    Accessibility&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ads info&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More...
+                </div>
+                <div>
+                    @ 2023 Twitter.Inc.
+                </div>
+            </div>
+        </div>
+        <!--        right sidebar end-->
+
+    </div>
+
+</div>
+
+</body>
+</html>

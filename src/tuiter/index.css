@@ -1,0 +1,91 @@
+.wd-btn-tweet {
+    width: 100%;
+    border-radius: 25px;
+}
+.wd-nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wd-follow-image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.wd-newTuit-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.wd-profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.wd-post-image {
+    border-radius: 25%;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.wd-bottom-left {
+    /*position: absolute;*/
+    /*bottom: 10px;*/
+    /*left: 15px;*/
+    font-size: 40px;
+    font-weight: bold;
+    color: #2d2d2d;
+    /*color: white;*/
+}
+.wd-blank {
+    height: 100px;
+}
+.wd-color-gray {
+    font-size: 15px;
+    color: rgb(110,118,125);
+}
+.wd-border-post {
+    border: 1px solid lightgray;
+}
+.wd-cut {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.wd-border-bold {
+    border: 1px solid rgb(50,50,50);
+}
+.wd-tabs li {
+    display: inline;
+}
+
+.wd-tabs {
+    padding-left: 0px;
+}
+
+.wd-selected {
+    border-bottom: 2px blue solid;
+    padding-bottom: 20px;
+}
+
+.wd-nudge-up {
+    bottom: 15px;
+    left: 25px;
+}
+.wd-nudge-down {
+    bottom: -75px;
+    left: 25px;
+}
+.wd-bottom-2 {
+    bottom: 2px;
+}
+
+.wd-bottom-4 {
+    bottom: 4px;
+}
